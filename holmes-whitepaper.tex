@@ -246,8 +246,10 @@ Token Name & Holmes \\
 Token Symbol & HOLMES \\
 Blockchain & Base (Ethereum L2) \\
 Token Standard & ERC-20 \\
+Contract Address & 0xA7de8462a852eBA2C9b4A3464C8fC577cb7090b8 \\
+Uniswap Pool & 0xcA6C4C0743C9ed9425FF94f7BC3297C3AAFB44B8 \\
 Total Supply & 1,000,000,000 HOLMES (1 billion) \\
-Free Mint Amount & 1,000 HOLMES per address \\
+Free Mint Amount & 1,000 HOLMES per wallet \\
 Omnichain & Yes (via Superchain) \\ \bottomrule
 \end{tabular}
 \caption{HOLMES Token Specifications}
@@ -272,16 +274,29 @@ Marketing & 5\% & 50,000,000 \\ \bottomrule
 
 \subsection{Free Mint Mechanics}
 
-The core mechanic of HOLMES is the free mint:
+The core mechanic of HOLMES is the free mint with a progressive fee structure:
 
 \begin{itemize}[leftmargin=*]
-    \item Every wallet address can mint 1,000 HOLMES tokens for free
-    \item You only pay gas fees (very low on Base)
+    \item Every wallet address can mint 1,000 HOLMES tokens
+    \item Minting is ``free'' but includes a progressive protocol fee (1\% to 100\%)
+    \item Early supporters pay minimal fees; later adopters pay more
+    \item \textbf{100\% of all fees go directly into protocol-owned liquidity}---permanently locked, benefiting all holders
     \item One mint per address---because everyone deserves exactly one second chance
     \item No presale, no VCs, no insider allocation beyond what's specified
 \end{itemize}
 
-\textbf{Why free mint?} Because this movement is about participation, not investment. We want people who believe in second chances, not speculators looking for the next memecoin to flip.
+\textbf{Progressive Fee Structure:}
+
+The fee starts at 1\% for the first minters and increases linearly to 100\% as the 700 million free mint allocation is exhausted. This creates:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Early adopter advantage}: First supporters pay nearly nothing
+    \item \textbf{Sustainable liquidity growth}: Every mint adds ETH to the Uniswap pool
+    \item \textbf{Protocol-owned liquidity}: All fees permanently locked---no rug pulls possible
+    \item \textbf{Price appreciation}: As liquidity grows, the token becomes more stable and valuable
+\end{itemize}
+
+\textbf{Why this model?} Because this movement is about participation, not speculation. The progressive fee rewards early believers while ensuring the protocol becomes self-sustaining. Every participant, early or late, contributes to a liquidity pool that can never be withdrawn.
 
 \subsection{Omnichain Expansion}
 
